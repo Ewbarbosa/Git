@@ -1,0 +1,95 @@
+### Configurações básicas
+
+git config --global user.name "nome sobrenome"
+git config --global user.email "email"
+
+
+
+### Criando um repositório
+
+git init
+
+
+
+### Verificando status do repositório
+
+git status
+
+
+
+
+### Rastreando novos arquivos/pasta
+
+git add .
+
+
+
+### Gravando arquivo/pasta no repositório
+
+git commit -m "Primeiro commit"
+
+
+
+### Verificando alterações realizadas
+
+git log
+
+
+
+
+### Apontando o repositório para o GitHub
+
+git remote add origin https://github.com/Ewbarbosa/Estudo.git
+
+
+
+
+### Enviando as alterações para o GitHub
+
+git push origin master
+
+
+
+
+### Obtendo código fonte do GitHub
+
+git clone https://github.com/Ewbarbosa/Estudo.git
+
+
+
+### Rastreando alterações em arquivos já rastreados e comitando 
+
+git -a -m "Mensagem do commit"
+
+ou
+
+git -am "Mensagem do commit"
+
+
+
+
+### Exibindo N commits (Trocar N por um valor)
+
+git log -n 2
+
+
+
+
+### Exibindo resumo dos commits
+
+git log --oneline
+
+
+
+
+### Exibindo resumo dos arquivos alterados e linhas adicionadas/removidas (Pressione ENTER para exibir mais ou Q para sair)
+
+
+git log --stat
+
+
+
+
+### Exibindo resumo das alterações dos commits (Trocar N por um valor)
+
+git log -n N --oneline --stat
